@@ -1,26 +1,5 @@
-一些生词:
-compactly 简洁的,紧密的,细密的
-esoteric  玄妙的,内行的
-Heterogeneous  混杂的,各种各样的
-network tap 网络分流器
-
-
-1. python3 string
-"""
-import _string
-
-hexdigits = digits + 'abcdef' + 'ABCDEF'
-punctuation = r"""!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"""
-printable = digits + ascii_letters + punctuation + whitespace
-"""
-
-2. zip(), map(), iter()都是内建的函数, 需要再看看
-
 3. jsfuck 这种加密很有意思啊
 # 例子参考 http://utf-8.jp/public/jsfuck.html
-
-4. 最最最常见且有效的SQL注入命令是:
-# ' OR 1 = 1 --
 
 5. requests 请求参数:allow_redirects, 默认是True, 改为False,
 以免错过任何信息
@@ -47,4 +26,4 @@ printable = digits + ascii_letters + punctuation + whitespace
 mkdir /mnt/you_shall_not_pass
 sudo mount -o loop -t ntfs dd.img /mnt/you_shall_not_pass
 
-12.
+12. 除了使用strings  也使用 tail 试试看
