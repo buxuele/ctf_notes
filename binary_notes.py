@@ -1,4 +1,3 @@
-"""
 二进制文件诊断步骤，工具
 
 １．转为python能读取的字符
@@ -38,10 +37,13 @@
 # %s%s%s%s%s%s  内存溢出多个地址
 # %3$x　 　　查看第三个值
 
-14.
 
+4. steghide extract -sf stego.jpg, 给个任意的密码试试看
 
-"""
+6. xxd -r -p , 这个是一个常用写法，把hexdump转为binary
+
+7. 
+
 
 from pwn import *
 

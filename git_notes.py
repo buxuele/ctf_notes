@@ -1,4 +1,13 @@
 
+
+3. 有个工具 gittools, 里面的./extractor.sh,可以恢复数据
+./extractor.sh gitrepo dstfolder
+
+2. 拿到一个 git,第一件事情是 git show , 查看大致变更信息
+git reset --soft @~1  回退到最后一次commit
+git reset HEAD gitcat_full.png 回退到文件初始状态
+git checkout gitcat_full.png 查看删掉的文件
+
 1. 如何加速git clone
 	- 官方推荐使用https, 而不是ssh. stackoverflow上的解释是:可以通过防火墙
 	- 如果不需要 历史记录的话:

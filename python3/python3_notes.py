@@ -8,7 +8,7 @@ printable = digits + ascii_letters + punctuation + whitespace
 
 2. zip(), map(), iter()都是内建的函数, 需要再看看
 
-5. python, pow():
+5. python, pow():subl
 x = pow(3, 2) = 3**2
 x = pow(3, 2, 2) = 3**2 % 2
 
@@ -22,6 +22,12 @@ x = pow(3, 2, 2) = 3**2 % 2
 
 
 ord() 返回对应的 ASCII 数值，或者 Unicode 数值
+chr() 用一个整数作参数，返回一个对应的字符。
+int('0101011010110', 2)	binary---int
+int('776f726c64', 16)	hex---int
+
+
+bytes_string = bytes(string, 'utf-8')
 
 11. # 逐行读取一个文件。节省内存。
 with open("./notes.py", 'r') as f:
