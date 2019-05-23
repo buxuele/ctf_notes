@@ -10,5 +10,5 @@ http.request.uri.query			# 搜索了哪些东西
 http.response.code == 200
 tcp.flags.syn == 1
 sip && ftp
-
+usb.src==host                   # protocol.src==value 按照这种格式来过滤
 2.

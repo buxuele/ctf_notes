@@ -33,6 +33,10 @@ ssh -i sskey.private userX@localhost
 crontab的用法.
 10. 命令行处理　凯撒加密：
 # for i in {1..26}; do echo "ciphertext" |caesar $i; done
+
+
+
+
 11. 挂载一个文件系统, mount 命令:
 mkdir /mnt/you_shall_not_pass
 sudo mount -o loop -t ntfs dd.img /mnt/you_shall_not_pass

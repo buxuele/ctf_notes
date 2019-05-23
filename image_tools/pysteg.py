@@ -1,6 +1,6 @@
 from PIL import Image
 
-# 打印一张照片上所有的 像素值
+# 注意: 修改一下文件名
 img = Image.open('a.jpg')
 data = img.load()
 # print(img.size)

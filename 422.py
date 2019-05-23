@@ -1,7 +1,6 @@
 常用诊断命令:
 file --->exiftool --->strings --->hexedit --->foremost --->
 
-1. 使用foremost,来查看损坏的或者删除的文件
 2. liunx 查看所有的系统变量: printenv | less
 	# 或者 直接 env
 3. quipqiup ,  solve simple substitution ciphers(替代解密?)
@@ -13,7 +12,7 @@ file --->exiftool --->strings --->hexedit --->foremost --->
 14. XOR cipher,
 # plaintext ^ key = ciphertext
 # plaintext ^ ciphertext = key
-15. php中　system($_GET['c']);
+
 # 这里的　c　可以是 anything
 16. 给一个php 文件添加头部信息，欺骗服务器：GIF89a
 GIF89a
@@ -26,10 +25,9 @@ from string import ascii_letters, digits
 characters = ascii_letters + digits
 18. 截屏或图片上的文字识别: GOCR
 #　sudo apt install gocr
-# gorc -h
+# gocr -h
 
-1. imagemagick, 命令行图片处理库,有很多丰富的功能.
-# maigck -version
+
 2. fcrackzip, 破解一些加密的 zip 文件
 #　fcrackzip -v -D -u -p rockyou.txt secret.zip
 3. hexedit, 以16进制模式,编辑查看data文件,一般是图片等媒体文件
