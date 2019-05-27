@@ -7,3 +7,6 @@ network tap 网络分流器
 distorted  扭曲的
 Redacted	编造的
 overlapping 重叠,重合
+substraction　减法
+extravagant 奢侈的,过度的
+eavesdropping 偷听,窃取

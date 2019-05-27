@@ -1,12 +1,20 @@
 二进制文件诊断步骤，工具
-ｌtrace --->exiftool---->binwalk -e [file]
-hopper
+ｌtrace --->exiftool---->binwalk -e [file]---> hopper
+
+steps:
+1. checksec ./binary_app
+NX Enabled, so can’t embed shell code.
+Canary no enabled, so can use Buffer Overflow
+2. 查看所有的　functions 及其地址：
+nm ./elf , readelf -s ./elf
+
+4. dmesg | grep babyrop2
+dmesg 是打印出整个系统缓冲区的内容
+
 
 １．转为python能读取的字符
 # pwn.p32(0xcaf3baee)
 # 等于: import struct; struct.pack('<I', 0x0804853b)
-3. readelf 也是一个查看 二进制的工具
-# readelf -s program | grep something
 # 注意查看特定函数的存储位置
 4. dmesg | tail, 查看运行结果
 5. pwntools shellcraft 可以处理shellcode
@@ -19,7 +27,6 @@ hopper
 >>> 0x08048520 >> 4
 '0b1111'
 
-
 12. bigprimes.net 有很多有趣的数字,比如计算很大的　fib()
 13. format string attack
 # %s%s%s%s%s%s  内存溢出多个地址
@@ -29,5 +36,3 @@ hopper
 
 8. gdb + peda(是一个python2库), liunx下的一个 debug工具.
 	r ,运行.
-9.
-10.

@@ -1,5 +1,3 @@
 all about php:
 
-
-
-15. php中　system($_GET['c']);
+1. php中　system($_GET['c']);
