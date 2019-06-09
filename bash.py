@@ -7,7 +7,6 @@
 4. fcrackzip, 破解一些加密的 zip 文件
 #　fcrackzip -v -D -u -p rockyou.txt secret.zip
 
-
 ***************** mount ******************
 1. 挂在一个文件系统,比如 ext4,
 # sudo mount some.ext4 /media/fc
@@ -15,8 +14,6 @@
 2. 挂载一个文件系统, mount 命令:
 mkdir /mnt/you
 sudo mount -o loop -t ntfs dd.img /mnt/you
-
-
 
 
 ***************** others ******************
@@ -27,7 +24,6 @@ sudo mount -o loop -t ntfs dd.img /mnt/you
 5. 尝试在客户端添加一个 cookie, admin, 1, 然后刷新查看服务器的响应.
 12. Local File Inclusion:
 # http://vulnerable_host/preview.php?file=../../../../etc/passwd
-13. 命令行 注入.很有意思哦, 用分号和井好来注释语句.
 14. XOR cipher,
 # plaintext ^ key = ciphertext
 # plaintext ^ ciphertext = key
@@ -43,12 +39,8 @@ GIF89a
 18. 截屏或图片上的文字识别: GOCR
 # gocr -h
 
-
 3. hexedit, 以16进制模式,编辑查看data文件,一般是图片等媒体文件
-jpg 的header: FF d8 FF
 6. foremost 也可以处理 .pcap文件(网络数据包文件)
-#　foremost, 处理丢失或破损的文件
 7. scapy 也可以处理网络数据包
-９．binwalk -e [file] 也是来查看陌生文件的
 11. testdisk 修复,恢复删除的文件
 12. zip archive headers是 50 4B 03 04

@@ -11,8 +11,7 @@
 
 2. 查看站点的隐藏文件:
 	nikto -h [target.com]
-3. 命令行注入, 用分号:
-ls -a ; ls -l
+
 5. gitdumper
 6. sympy 基本数学计算的库
 

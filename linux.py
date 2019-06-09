@@ -2,7 +2,6 @@
 	# sudo airmon-ng start wlx488ad2683511
 2. 使用 espeak:
 	# sudo apt install espeak # echo "hello" | espeak
-
 4. 添加 subl 到终端, 设置别名:
 	sudo gedit ~/.bashrc
 	alias subl='/home/fc/Downloads/sublime_text_3/sublime_text'
@@ -18,7 +17,7 @@ ssh -i sskey.private userX@localhost
 16. stat filename, 显示文件的详细信息
 17. 在命令结尾加上&,表示后台运行, fg 可以跳出来.
 18. nc打开连接的同时传给一定的参数, 使用 cat 不加参数,等待输入
-#  for i in {1..50}; do ltrace ./app 'python2 -c "print 'a'*$i"'; done
+ for i in {1..50}; do ltrace ./app 'python2 -c "print 'a'*$i"'; done
 19. nmap localhost -p31000-32000
 ８．常用命令:
 	查看已经设置过的命令别名：　alias

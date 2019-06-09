@@ -31,6 +31,17 @@ x = pow(3, 2, 2) = 3**2 % 2
 	不需要传入self和cls, 就像普通的函数一样.也是不需要实例化就可以调用的
 	A.do_what()
 
+1. python3 input 注入:
+echo '__import__("os").system("cat flag.txt") ' | python3 evil.py
+
+3. extensions location:
+/home/fc/.config/google-chrome/Default/Extensions/
+
+4. python3 查看当前环境下,所有的可用内建对象
+h = ().__class__.__bases__[0].__subclasses__()[0:50]
+# print(h)
+[c for c in h if c.__name__=='BuiltinImporter'][0].load_module('io').open('flag.txt').read()
+
 
 ord() 返回对应的 ASCII 数值，或者 Unicode 数值
 chr() 用一个整数作参数，返回一个对应的字符。
