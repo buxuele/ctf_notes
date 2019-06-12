@@ -10,3 +10,7 @@ overlapping 重叠,重合
 substraction　减法
 extravagant 奢侈的,过度的
 eavesdropping 偷听,窃取
+Counterintuitively　反常识的
+Thrift 				节俭
+deduce				推断
+trivial				琐碎的,不重要的

@@ -8,11 +8,19 @@ binwalk --dd='.*' hydra.png  提取所有类型的隐藏文件
 6. identify  + some.gif 查看摸个图片的基本信息.imagemagick的一个命令
 7. ghex broken.jpg   来编辑一个文件的hex值
 8. pngcheck -v  a.png # 检查 png文件
+9. xortool a.png -l 9 -b 分析损坏的,xor加密的文件
+10.Logo Sucks Bad = LSB = Least Significant Bit 也是一种加密
+
 
 *********** others  *********
 1. imagemagick, 命令行图片处理库,有很多丰富的功能.
 # maigck -version
-2.
+2.这个网站可以多试试看:
+# https://stylesuxx.github.io/steganography/
+3.
+
+bobross63
+
 
 jpg:
  header: FF D8 FF E0 xx xx 4A 46 49 46 00, footer: FF D9

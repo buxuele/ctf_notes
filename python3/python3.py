@@ -55,3 +55,9 @@ bytes(string, 'utf-8') ------>bytes_string
 with open("./notes.py", 'r') as f:
 	for line in f.readlines():
 		print(line)
+
+1. 60 << 2 = 240
+左移动位运算  运算数的各二进位全部左移若干位，由"<<"右边的数指定移动的位数，
+高位丢弃，低位补0。
+
+2.

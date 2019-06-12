@@ -7,4 +7,4 @@ pip3 install --no-deps --ignore-installed --no-cache-dir numpy
 3.from string import ascii_letters, digits
 characters = ascii_letters + digits
 
-4. 
+4. 如何退出　env
