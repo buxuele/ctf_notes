@@ -9,7 +9,7 @@ binwalk --dd='.*' hydra.png  提取所有类型的隐藏文件
 7. ghex broken.jpg   来编辑一个文件的hex值
 8. pngcheck -v  a.png # 检查 png文件
 9. xortool a.png -l 9 -b 分析损坏的,xor加密的文件
-10.Logo Sucks Bad = LSB = Least Significant Bit 也是一种加密
+10. Logo Sucks Bad = LSB = Least Significant Bit 也是一种加密
 
 
 *********** others  *********

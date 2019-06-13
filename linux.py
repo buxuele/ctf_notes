@@ -40,5 +40,5 @@ ssh -i sskey.private userX@localhost
 10. pycharm 重新格式化代码 全选然后: Ctrl+Alt+L
 15. 在/home目录下查找以.txt结尾的文件名
 find /home -name "*.txt"
-
+７．tail -n 1, 输出最后一行
 12. 除了使用strings  也使用 tail 试试看

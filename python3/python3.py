@@ -5,6 +5,8 @@ hexdigits = digits + 'abcdef' + 'ABCDEF'
 punctuation = r"""!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"""
 printable = digits + ascii_letters + punctuation + whitespace
 """
+2. python3 可以造成 MemoryError
+x = [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
 
 12. python3 字符串中 可能不怎么常用的方法:
 	1. # print(text.capitalize())       # 只是一个字母
@@ -17,9 +19,7 @@ printable = digits + ascii_letters + punctuation + whitespace
 		# print(text.translate(transtab))
 	4. # print(text.swapcase())      # 将字符串中 大小写互换
 
-2. zip(), map(), iter()都是内建的函数, 需要再看看
-
-5. python, pow():subl
+5. python, pow():
 x = pow(3, 2) = 3**2
 x = pow(3, 2, 2) = 3**2 % 2
 
