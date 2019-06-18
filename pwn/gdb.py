@@ -7,10 +7,12 @@ some gdb command:
 3. x/s + 地址[0x400684]          查看某个地址的详细内容
     xinfo + 地址
 4. p + func_name                打印出函数的地址
-    pdis + main
+   pdis + main
 5. break * main+47              断点测试
+   b *0x00000000004006a4        断点前面有一个星号
 6. searchmem “/bin/sh”
-
+7. info registers, set $rbx=1   修改某个变量的值
+8.
 
 ****** 寻找　offset ******
 1. pattc 100 ???

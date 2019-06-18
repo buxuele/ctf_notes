@@ -14,3 +14,11 @@ Counterintuitively　反常识的
 Thrift 				节俭
 deduce				推断
 trivial				琐碎的,不重要的
+irrespective 	无关的,不重要的
+quotient		除法的商,系数
+diagonal		对角线,斜线
+Deprecation		反对,贬低
+allocation		分配,配置
+Steroids		类固醇
+endeavor 		努力, 尽力
+OSINT			开源情报
