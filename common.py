@@ -24,9 +24,7 @@
 16. .yaml 文件有一个天然的漏洞,可以执行任意命令:
 !!python/object/apply:os.system \n
 ["cat flag.txt"]
-
 8. shellstrom 这个网站可以 找到很多有用的 shellcode
-
 12. bigprimes.net 有很多有趣的数字,比如计算很大的　fib()
 13. format string attack
 # %s%s%s%s%s%s  内存溢出多个地址

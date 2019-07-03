@@ -22,3 +22,8 @@ allocation		分配,配置
 Steroids		类固醇
 endeavor 		努力, 尽力
 OSINT			开源情报
+perusal				熟读,精读
+Mnemonic			记忆的,助记的
+Discrete 			离散的
+retentive			保持的,记性好的
+beverage 			饮料

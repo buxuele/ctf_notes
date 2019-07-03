@@ -25,7 +25,6 @@ ssh -i sskey.private userX@localhost
 	tac, 逆转一个文件的每行的顺序
 	tr -d 删除字符
 	cut -d 剪切字符
-1. xxd 命令 用来生成一个hexdump
 3. oepnssl 语法:
 #　$ openssl s_client -connect www.feistyduck.com:443 other_paras
 # 这里的这个 s_client 是固定写法,不是变量名称

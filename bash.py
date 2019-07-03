@@ -35,12 +35,6 @@ GIF89a
 ?>
 17. BLIND SQL Injection
 # 'AND password LIKE "<iter>%"'
-
-18. 截屏或图片上的文字识别: GOCR
-# gocr -h
-
-3. hexedit, 以16进制模式,编辑查看data文件,一般是图片等媒体文件
-6. foremost 也可以处理 .pcap文件(网络数据包文件)
-7. scapy 也可以处理网络数据包
+18. 截屏或图片上的文字识别: GOCR  # gocr -h
 11. testdisk 修复,恢复删除的文件
 12. zip archive headers是 50 4B 03 04

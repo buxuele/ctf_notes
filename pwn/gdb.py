@@ -11,8 +11,9 @@ some gdb command:
 5. break * main+47              断点测试
    b *0x00000000004006a4        断点前面有一个星号
 6. searchmem “/bin/sh”
-7. info registers, set $rbx=1   修改某个变量的值
-8.
+7. info registers, 
+8. set $rbx=1   修改某个变量的值
+
 
 ****** 寻找　offset ******
 1. pattc 100 ???
