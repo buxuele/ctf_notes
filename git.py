@@ -49,12 +49,15 @@ $ git config --global user.email johndoe@example.com
 $ git config --global core.editor subl
 
 
-Git fork（修改别人的内容）笔记：
+推送到一个已经存在的仓库：
 1. git remote -v
 查看本地仓库所属的远程信息（这个仓库属于谁的，从哪来的）
 2. git remote add upstream + 原始仓库地址
 	这个命令的目的是：添加 本地与远程的同步关系
 	再次 输入 git remote -v 查看显示结果
-3. 然后是 写上自己需要修改的内容。 git push就行了？？？？？ 需要再测试一下。
+3. git pull upstream master		拿远程的与本地的对比
+git pull upstream master --allow-unrelated-histories
+4. git push upstream master		推送到远程
+5. git status
 
 ```

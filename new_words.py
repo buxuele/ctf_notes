@@ -27,3 +27,18 @@ Mnemonic			记忆的,助记的
 Discrete 			离散的
 retentive			保持的,记性好的
 beverage 			饮料
+tan				棕色的
+mesh 			网眼, 网状物
+Geometric		几何的,
+toroid			环形线圈, 螺旋管
+Ellipsoid		椭圆体
+Pseudosphere	伪球面
+spline			曲线尺, 齿条
+scalars			标量, 数量, 阶梯, 地图上的标量尺
+sphere			球体
+cone			圆锥体
+ravel			弄清, 解开
+Versatile		通用的, 多才多艺的
+toggle			切换
+ratio			比率
+puree 			浓汤,果泥
