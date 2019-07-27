@@ -10,10 +10,11 @@ characters = ascii_letters + digits
 
 
 pipenv 个人经验，　按照以下顺序，　速度最快
-1. pipenv install [nothing needed]
+1. pipenv install
 2. pipenv shell         # start env
 3. pip3 install <packageName>  # now install
 
+4. pipenv lock -r :   generate a requirements.txt
 
 django
 1.'DIRS': [],   this is default

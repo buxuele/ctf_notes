@@ -41,3 +41,4 @@ ssh -i sskey.private userX@localhost
 find /home -name "*.txt"
 ７．tail -n 1, 输出最后一行
 12. 除了使用strings  也使用 tail 试试看
+3. 输入sudo lshw -C network显示Ubuntu正在使用的网卡信息

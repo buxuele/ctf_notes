@@ -34,7 +34,7 @@ x = pow(3, 2, 2) = 3**2 % 2
 1. python3 input 注入:
 echo '__import__("os").system("cat flag.txt") ' | python3 evil.py
 
-3. extensions location:
+3. chrome extensions location:
 /home/fc/.config/google-chrome/Default/Extensions/
 
 4. python3 查看当前环境下,所有的可用内建对象
