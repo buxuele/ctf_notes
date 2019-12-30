@@ -2,4 +2,4 @@
 2. 快速查看最近的修改    alt+shift+c
 3. 静态代码分析检查      右键，选择 Inspect Code
 4. 添加 TODO           alt + 6
-5. 
+5. 重新格式化代码 全选然后: Ctrl+Alt+L

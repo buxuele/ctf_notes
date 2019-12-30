@@ -2,10 +2,7 @@
 	# sudo airmon-ng start wlx488ad2683511
 2. 使用 espeak:
 	# sudo apt install espeak # echo "hello" | espeak
-4. 添加 subl 到终端, 设置别名:
-	sudo gedit ~/.bashrc
-	alias subl='/home/fc/Downloads/sublime_text_3/sublime_text'
-	source ~/.bashrc
+
 8. 查看 CPU 总的线程数：
 # grep 'processor' /proc/cpuinfo | sort -u | wc -l
 11. ctrl-u 可以删除行内光标所在位置之前的内容
@@ -36,7 +33,6 @@ ssh -i sskey.private userX@localhost
 7. sudo apt install dosbox，　执行MS-DOS文件
 8. stegcracker <file> [<wordlist>] 恢复隐藏的文件
 9. zbarimg some.png 解析二维码
-10. pycharm 重新格式化代码 全选然后: Ctrl+Alt+L
 15. 在/home目录下查找以.txt结尾的文件名
 find /home -name "*.txt"
 ７．tail -n 1, 输出最后一行

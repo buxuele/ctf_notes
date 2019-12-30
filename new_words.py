@@ -1,5 +1,9 @@
 一些生词:
-
+ukulele       夏威夷的四弦琴，等于ukelele
+vertex        顶点，连接点
+estimate	  估计
+voxel		  体元，体素，立体像素
+collaborate   协作
 compactly 简洁的,紧密的,细密的
 esoteric  玄妙的,内行的
 Heterogeneous  混杂的,各种各样的
@@ -51,7 +55,7 @@ emitted 发射，发出
 discard 丢弃
 1. verbose 详细
 2.  introspection 内省
- 3.   workaround 解决办法
+3.  workaround 解决办法
 2. mutable 易变的
 3. propagate 传播
 4. agnostic 不可知
@@ -109,7 +113,6 @@ introspection 内省
 Redundancy 冗余
 encapsulate 封装
 1. redundant， 冗长的
-3. Verbose 详细
 4. Topping, 配料
 5. coerced，裹挟
 6. comprise， 包括
@@ -136,7 +139,6 @@ pipsi = pip script installer
 scatter 零散 零落
 succinctly 简洁的
 monotonous 单调的
-encounter 遭遇
 bewildering 扑朔迷离的
 salutation 招呼 寒暄
 infer 推断

@@ -4,4 +4,10 @@
 	 resp =requests.get(url, headers={'User-Agent': ua})
 	 resp =requests.get(url, cookies={'cookie_name': cookie_value})
      resp = requests.get(url, auth=(username, password))
+
 3.
+headers = {'Host': 'm.weibo.cn',
+           'Referer': 'm.weibo.cn',
+           "User-Agent": ua.random,
+           "X-Requested-With": 'XMLHttpRequest'}
+4. 

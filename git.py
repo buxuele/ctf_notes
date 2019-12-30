@@ -30,7 +30,6 @@ $ git commit --amend --author "D <d@r.com>"
 1. branching,start a new work placef
 2. commit, make some changes
 3. pull request, compare with others' branch
-4. collaborate, 协作。
 5. merge
 6. open pull request
 
