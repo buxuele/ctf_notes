@@ -1,3 +1,12 @@
+1. watch -n 2 nvidia-smi    # 每2秒查看一下显卡使用情况
+2. sudo kill -9 [pid], kill a pid
+3. 修改 hosts 的话，注意域名字段写的是
+#　www.google.com  or github.com
+4. 文件格式转换 
+sudo apt  install pandoc
+- pandoc demo.txt -o demo.html
+- pandoc -o progit.epub *.txt
+
 1. 把Mannaged mode 切换成 Monitor mode, 然后方便wireshark来抓包
 	# sudo airmon-ng start wlx488ad2683511
 2. 使用 espeak:
