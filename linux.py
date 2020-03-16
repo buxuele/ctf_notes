@@ -2,15 +2,13 @@
 2. sudo kill -9 [pid], kill a pid
 3. 修改 hosts 的话，注意域名字段写的是
 #　www.google.com  or github.com
-4. 文件格式转换 
+4. 文件格式转换
 sudo apt  install pandoc
 - pandoc demo.txt -o demo.html
 - pandoc -o progit.epub *.txt
 
 1. 把Mannaged mode 切换成 Monitor mode, 然后方便wireshark来抓包
 	# sudo airmon-ng start wlx488ad2683511
-2. 使用 espeak:
-	# sudo apt install espeak # echo "hello" | espeak
 
 8. 查看 CPU 总的线程数：
 # grep 'processor' /proc/cpuinfo | sort -u | wc -l
@@ -26,7 +24,7 @@ ssh -i sskey.private userX@localhost
  for i in {1..50}; do ltrace ./app 'python2 -c "print 'a'*$i"'; done
 19. nmap localhost -p31000-32000
 ８．常用命令:
-	查看已经设置过的命令别名：　alias
+	
 	rev, 逆转一个字符串
 	tac, 逆转一个文件的每行的顺序
 	tr -d 删除字符

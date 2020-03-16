@@ -2,7 +2,6 @@
 1. 对字典的 "值" 排序:
 	dict1={'a':2,'e':3,'f':8,'d':4}
 	list1= sorted(dict1.items(),key=lambda x:x[1])
-	print(list1)
 4. int.from_bytes(b'\x00\x10', byteorder='big')
 6. 解决python3 中的 yaml问题, pip3 install pyyaml
 
@@ -38,8 +37,6 @@ curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 sys.path.append(os.path.split(rootPath)[0])
 
-9. python多进程并发之后, 还原成串行时的顺序
-https://www.zhihu.com/question/274432211/answer/376798859
 10. 查看本机默认 字符编码:
 import locale; print(locale.getdefaultlocale())
 
@@ -47,7 +44,5 @@ import locale; print(locale.getdefaultlocale())
 1. f, e = os.path.splitext('duck.jpg')		# // duck .jpg
 2. l.get('src'), l['href'], 获取链接地址的方式是不同的.
 3. attrs={'class': 'some'}, class_='thumbnail' 都可以的.
-4. open(file, mode):
-file:///home/fc/Downloads/python_doc/library/functions.html#open
 5. json, dump() dumps():
 with an s take string parameters. The others take file streams.
