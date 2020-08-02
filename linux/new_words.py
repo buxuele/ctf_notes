@@ -147,5 +147,10 @@ vanilla 香草
 arbitrary 随意的
 encapsulated 封装
 quota 配额
-diabolical 毒辣，毒恶的
-Infrastructure 基础设施
+diabolical 			毒辣，毒恶的
+Infrastructure 		基础设施
+susceptible			易受影响的
+transient			短暂的, 路过的
+periodic			周期的，定期的
+multilingual		多语言的
+probe				探针　调查

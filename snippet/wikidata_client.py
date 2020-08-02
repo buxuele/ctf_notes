@@ -2,6 +2,8 @@
 1. a library for wikidata api
     https://github.com/dahlia/wikidata
 2. pip3 install Wikidata
+
+2020/5/25  运行一下，长时间没反应，可能是网络被封锁，或者是这个库有点老了
 """
 
 

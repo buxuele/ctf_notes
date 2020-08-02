@@ -12,7 +12,7 @@ import itertools
 4. combinations_with_replacement(iter, n),     有重复
 5. count(start=1, step=2)
 6. repeat(4, 3)           # 4, 4, 4
-7. cycle(iter)
+7. cycle(iter)            # 无线循环下去，类似 while True
 8. accumulate(iter)          # 累加
 9. product(iter, iter)
 
